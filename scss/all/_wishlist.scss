@@ -1,0 +1,231 @@
+#korzinka{
+  margin-top:222px;
+
+
+.wishlis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+        h1{
+            color: #000;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; 
+        }
+
+        button{
+            display: flex;
+            padding: 16px 48px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.50);
+            color: var(--Text2, #000);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+            transition: 0.2s ease-in-out;
+
+            &:hover{
+                background: red;
+                color: white;
+            }
+        }
+}
+
+
+
+.foryou{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+    button{
+        display: flex;
+        padding: 16px 48px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.50);
+        color: var(--Text2, #000);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        transition: 0.2s ease-in-out;
+
+        &:hover{
+            background: #DB4444;
+            color: white;
+        }
+    }
+    .todays{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .red {
+            width: 20px;
+            height: 40px;   
+            background-color: #DB4444;
+            border-radius: 4px;
+          }
+
+          h3{
+            color: #000;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+          }
+    }
+}
+.kard{
+        margin-bottom: 140px;
+    .cardlar{
+        display: flex;
+        gap: 30px;
+        overflow-y: hidden;
+        
+    }
+    .card {
+      position: relative;
+      margin-top: 31px;
+      margin-bottom: 16px;
+      width: 270px;
+      height: 250px;
+      border-radius: 4px;
+      background: #f5f5f5;
+
+      &:hover{
+       .btnone{
+        display: block;
+       }
+      }
+
+      .saru{
+        margin: 12px 203px 212px 12px;
+        background-color: #00FF66;
+        display: inline-flex;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        gap: 10px;
+        color: #fafafa;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
+
+
+      .btnone{
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 270px;
+        height: 41px;
+        background-color: #000;
+        color: white;
+
+      }
+   
+      .red {
+        margin: 12px 203px 212px 12px;
+        background-color: #DB4444;
+        display: inline-flex;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        gap: 10px;
+        color: #fafafa;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
+
+      .photo {
+        gap: 8px;
+        position: absolute;
+        top: 12px;
+        left: 224px;
+        bottom: 162px;
+
+        img {
+          gap: 8px;
+          width: 34px;
+          height: 34px;
+        }
+      }
+      .jostik {
+        
+        img {
+          position: absolute;
+          top: 49px;
+          left: 49px;
+        }
+      }
+    }      
+}
+
+.card__item{
+
+    h2{
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .span{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: var(--Secondary-2, #DB4444);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+
+        .dollar{
+            text-decoration: line-through;
+        }
+    }
+
+    span{
+        color: var(--Secondary-2, #DB4444);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+}
+.borederbottom{
+    border-bottom: 1px solid rgb(180, 177, 177);
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+}

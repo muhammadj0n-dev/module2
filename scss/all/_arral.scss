@@ -1,0 +1,117 @@
+.playstation{
+   
+    &__intro{
+        width: 570px;
+        height: 600px;
+        flex-shrink: 0;
+        background-color: #000;
+        padding-top: 89px;
+        &__wrapper{
+        margin-top: -200px;
+        margin-left: 32px;
+        
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 24px; 
+            letter-spacing: 0.72px;
+        }
+        h2{
+            color: var(--Text, #FAFAFA);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px; 
+            width: 242px;
+        }
+        h3{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            
+        }
+        }
+    }
+}
+.collection{
+    background-color: #0D0D0D;
+    width: 570px;
+    height: 284px;
+    display: flex;
+    margin-bottom: 30px;
+    img{
+        margin-left: 138px;
+    }
+    &__text{
+        position: absolute;
+        margin-left: 45px;
+        padding-top: 118px;
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 24px; 
+            letter-spacing: 0.72px;
+        }
+        h2{
+            width: 255px;
+            color: var(--Text, #FAFAFA);
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 21px; 
+            margin-bottom: 16px;
+        }
+        h3{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+}
+.speakers{
+   display: flex;
+   gap: 30px;
+    &__one{
+        border-radius: 4px;
+        background: var(--Text2, #000);
+        width: 270px;
+        height: 284px;
+        img{
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+
+        &__wrapper{
+        margin-top: -100px;
+        margin-left: 32px;
+            h1{
+                color: var(--Text, #FAFAFA);
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 24px; 
+                letter-spacing: 0.72px;
+            }
+            h2{
+                width: 191px;
+                color: var(--Text, #FAFAFA);
+
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px; 
+            }
+            h3{
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px; 
+            }
+        }
+    }
+}
+.all_wrapper{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 140px;
+}

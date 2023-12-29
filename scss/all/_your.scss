@@ -1,0 +1,138 @@
+.music{
+    background-color: black;
+    margin-bottom: 71px;
+    width: 1170px;
+    height: 500px;
+    &__intro{
+        position: relative;
+       h1{
+        position: absolute;
+        top: 69px;
+        right: 1024px;
+        left: 56px;
+        bottom:411px;
+        color: var(--Button1, #0F6);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+       }
+       h2{
+        position: absolute;
+        top: 121px;
+        right: 671px;
+        left: 56px;
+        bottom: 259px;
+        width: 443px;
+        height: 500px;
+        color: var(--Text, #FAFAFA);
+        font-family: Inter;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 1.92px;
+
+       }
+
+       &--drop{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin-top: 32px;
+        gap: 24px;
+        top: 273px;
+        right: 794px;
+        bottom: 165px;
+        left: 56px;
+        
+        &-wrapper{
+            width: 62px;
+            height: 62px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #FAFAFA;
+            color: #000;
+
+            h3{
+                position: relative;
+                top: 14px;
+                right: 21px;
+                bottom: 28px;
+                left: 21px;
+                text-align: left;
+                color: var(--Text2, #000);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+            }
+
+            p{
+                position: relative;
+                align-items: center;
+                text-align: center;
+                top: 12px;
+                right: 15px;
+                bottom: 14px;
+                left: 7px;
+                text-align: center;
+                width: 48px;
+                color: var(--Text2, #000);
+                font-family: Poppins;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+            }
+
+        }
+       }
+
+       button{
+        position: absolute;
+        top: 375px;
+        right:943px;
+        bottom: 69px;
+        left: 56px;
+        width: 171px;
+        height: 56px;
+        display: inline-flex;
+        padding: 16px 48px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: var(--Text, #000 );
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        border-radius: 4px;
+        background-color: white;
+        transition: 0.1s linear;
+        &:hover{
+        background: var(--Button1, #0F6);
+        color: black;
+        border: 1px solid black;
+        }
+       }
+
+       &--right{
+        position: relative;
+        .kolonkajbl{
+            position: absolute;
+            top:76px;
+            right:49px;
+            bottom:94px;
+            left:553px;
+        }
+        
+       }
+    }
+}
+
